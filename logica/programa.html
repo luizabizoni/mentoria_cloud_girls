@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+    //Mantenha as funções no início do documento. Para o nome de uma função, use verbo.
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    //Parâmetros são as instruções que o JavaScript recebe 
+    //Contrução: instrução(parâmetro);
+    var ano = 2016; //JS é CaseSensitive
+    var idadeFlavio = ano - 1977;
+    var idadeJoaquim = ano - 1996;
+    
+    mostra("Flávio tem " + idadeFlavio + " anos");
+    mostra("Joaquim tem " + idadeJoaquim + " anos");
+
+    ano = 2017;
+    var idadeBarney = ano - 1976;
+    mostra("Barney tem " + idadeBarney + " anos");
+    //document.write aceita trabalhar com tipo string, int, float
+
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+    mostra("A média das idades é " + Math.round(media));
+    
+</script>

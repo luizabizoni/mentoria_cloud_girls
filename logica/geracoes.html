@@ -1,0 +1,19 @@
+<h3>Gerações desde a chegada dos portugueses no Brasil</h3>
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");        
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha()       
+    }
+
+    var tempoEntreGeracoes = 28; //anos
+    var anoAtual = 2020;
+    var anoChegadaPortuguesesBrasil = 1500;
+    var geracoes = (anoAtual - anoChegadaPortuguesesBrasil)/tempoEntreGeracoes;
+
+    mostra("Já se passaram em média " + Math.round(geracoes) + " gerações desde a chegada dos portugueses ao Brasil.");
+</script>
