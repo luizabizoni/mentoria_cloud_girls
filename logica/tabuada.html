@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var tabuada = parseInt(prompt("Digite o número que deseja saber a tabuada: "));
+
+    mostra("A tabuada de " + tabuada + " é:");
+
+    for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+        
+        mostra(tabuada + " x " + multiplicador + " = " + (tabuada * multiplicador));
+    }
+
+    mostra("FIM")
+
+</script>

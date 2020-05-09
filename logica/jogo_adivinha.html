@@ -12,28 +12,25 @@
         pulaLinha();
     }
 
-    function sorteia(valor) {
+    var numeroPensado = Math.round(Math.random() * 10);
+    var tentativas = 1;
 
-        Math.round(Math.random() * valor);
-    }
+    while(tentativas <= 3) {
 
-    var numeroPensado = sorteia(5);
-    var chute = parseInt(prompt("Digite seu chute (de 0 a 10): "))
+        var chute = parseInt(prompt("Digite seu chute!"));
 
-    if (chute == numeroPensado) {
-        
-        mostra("Você acertou!");
-    }
-    else{
-        
-        if(chute > numeroPensado) {
+        if(chute == numeroPensado) {
 
-            mostra("Você errou! Seu chute é maior que o número pensado!");
+            mostra("Você ACERTOU, o número pensado era " + numeroPensado);
+            break;
         } else {
 
-            mostra("Você errou! Seu chute é menor que o número pensado!");
+            mostra("Você ERROU!");
         }
+
+        tentativas++;
     }
 
+    mostra("FIM");
 
 </script>
