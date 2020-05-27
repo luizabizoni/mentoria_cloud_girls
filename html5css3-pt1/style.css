@@ -2,10 +2,14 @@ body{
     background: #CCCCCC;
 }
 
-p{
+#banner{
+    width: 100%;
+}
+
+h1, p{
     text-align: center;
 }
 
-em strong {
-    color: #FF0000;
+#missao{
+    font-size: 20px;
 }
