@@ -35,7 +35,7 @@ header .container:before{
 .container{
 	width: 60%;
 	height: 100%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 section{
@@ -68,6 +68,10 @@ td, th {
 th{
 	font-weight: bold;
 	background-color: #EEE;
+}
+
+.container #titulo-form {
+	margin-top: 20px;
 }
 
 label{
