@@ -24,13 +24,48 @@
         <main>
             <form action="">
                 <label for="nome-completo">Nome completo</label>
-                <input type="text" name="nome" id="nome-completo">
+                <input type="text" name="nome" id="nome-completo" class="input-padrao">
 
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email">
+                <input type="text" name="email" id="email" class="input-padrao">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" id="telefone">
+                <input type="tel" name="telefone" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+
+                <div>
+                    <p>Como prefere receber nosso contato?</p>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" id="radio-email" value="email">
+                            Email
+                    </label>
+                    
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" id="radio-telefone" value="telefone">
+                            Telefone
+                    </label>
+                    
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" id="radio-whatsapp" value="Whatsapp">
+                            Whatsapp
+                    </label>
+                </div>
+
+                <div>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </div>
+
+                <label for="novidades" class="checkbox">
+                    <input type="checkbox" name="novidades" id="novidades">
+                        Gostaria de receber nossas novidades por email?
+                </label>
 
                 <input type="submit" value="Enviar Formulário">
             </form>
