@@ -18,3 +18,6 @@ Desenvolvendo competências técnicas
 
 ### JavaScript
 [JavaScript: Programando na linguagem da web](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/introducao-javascript)
+
+### jQuery
+[jQuery: Domine a biblioteca mais popular do mercado parte 1](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/jquery-pt1)
