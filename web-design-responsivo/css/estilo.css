@@ -1,5 +1,7 @@
 /* reset */
-*, *:after, *:before {
+*,
+*:after,
+*:before {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0;
@@ -15,38 +17,9 @@ body {
 header {
 	background: #f0f0f0;
 	width: 100%;
-
-	padding: 0.5em 0;
 }
-
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.logo, .secao {
-    padding: 0 1%;
-}
-
 .logo img {
 	display: block;
-}
-
-.logo, .busca, .barra-nav, .menu-principal {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.destaques {
-    margin-top: 1em;
-}
-
-.barra-nav {
-    margin: 0.4em 0;
 }
 
 /* busca */
@@ -104,38 +77,21 @@ img {
 	font-weight: bold;
 	list-style-type: none;
 	}
+	.menu-principal a {
+		display: block;
+		padding-right: 1em;
+		margin-right: 1em;
 
-.menu-principal li {
-	float: left;
-}
+		line-height: 1;
+		text-decoration: none;
+		text-transform: lowercase;
+	}
+		.menu-principal a:hover {
+			opacity: 0.8;
+		}
 
-.menu-principal a {
-	display: block;
-	padding-right: 1em;
-	margin-right: 1em;
-
-	line-height: 1;
-	text-decoration: none;
-	text-transform: lowercase;
-}
-
-.menu-principal a:hover {
-	opacity: 0.8;
-}
 
 /* lista de notícias */
-
-.secao {
-	float: left;
-	width: 33.333%;
-	width: 100%;
-}
-
-.mini {
-    float: left;
-    width: 50%;
-}
-
 .chamada {
 	border-bottom: 1px dotted #ccc;
 	display: block;
@@ -181,6 +137,7 @@ img {
 			padding-right: 0;
 		}
 
+
 /* direita da TV */
 .chamada.tv {
 	border: 1px solid #ccc;
@@ -212,23 +169,3 @@ img {
 			background: #555;
 			margin-left: 1.5em;
 		}
-
-@media (min-width: 600px) {
-	html {
-		font-size: 1.125em;
-	}
-
-	.secao {
-        width: 50%;
-    }
-}
-
-@media (min-width: 1000px) {
-	html {
-		font-size: 1.25em;
-	}
-
-	.secao {
-        width: 33.333%;
-    }
-}
