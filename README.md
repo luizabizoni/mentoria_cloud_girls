@@ -16,8 +16,15 @@ Desenvolvendo competências técnicas
 
 [HTML5 e CSS3 parte 4: Avançando no CSS](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/html5css3-pt4)
 
+[Web Design Responsivo: Páginas que se adaptam do mobile ao desk](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/web-design-responsivo)
+
+[Front-end: Projeto de conclusão](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/front-end-projeto-final)
+
 ### JavaScript
 [JavaScript: Programando na linguagem da web](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/introducao-javascript)
 
 ### jQuery
 [jQuery: Domine a biblioteca mais popular do mercado parte 1](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/jquery-pt1)
+
+[jQuery: Avance na biblioteca mais popular do mercado parte 2](https://github.com/luizabizoni/mentoria_cloud_girls/tree/master/jquery-pt2)
+
